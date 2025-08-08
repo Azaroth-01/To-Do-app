@@ -32,3 +32,20 @@ Password security is ensured through hashing, and MongoDB aggregation is used fo
 ---
 
 ## 📂 Project Structure
+project/
+│ README.md
+│ package.json
+│ .gitignore
+│
+├── config/ # DB and JWT configurations
+├── controllers/ # Request handlers
+├── models/ # Mongoose schemas
+├── routes/ # API routes
+├── middleware/ # Authentication middleware
+└── utils/ # Helper functions
+
+npm install
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
